@@ -1,9 +1,11 @@
 # Head-Pose-Estimation
 This is a Supervised Machine Learning Models, extract features using mediapipe the use Regression models by sklearn with visualization. 
+### Source Video
+![Game Process](https://github.com/omaraz/Head-Pose-Estimation/blob/main/Ms_Pre.gif)
 
-![Game Process](https://github.com/omaraz/Head-Pose-Estimation/blob/main/MS_f.gif)
-
-
+### After predicting Pitch, Yaw and Roll Axes Video
+![Game Processs](https://github.com/omaraz/Head-Pose-Estimation/blob/main/Ms_post.gif)
+### Project Description
 - Our goal in this project to predict head pose estimation with 3 axes (Pitch, Yaw, Roll) face geometry using [AFLW2000 Dataset](http://cvlab.cse.msu.edu/lfw-and-aflw2000-datasets.html) by using 3 Regression models.
 - This Dataset includes 2000 images contain faces so we use *mediapipe* library to extact face points as features(468 points (x,y)) so we have 468 * 2 so final features count  = 936.
 - Then extract labels from matlab file that related to each image we have three labels as output the 3 axes (Pitch, Yaw, Roll) values.
